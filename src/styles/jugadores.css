@@ -1,0 +1,36 @@
+.container_jugadores {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+    gap: 20px;
+    align-items: end;
+    align-content: center;
+    
+}
+
+
+.botones {
+    display: grid;
+    align-items: end;
+}
+
+.letras {
+    height: 20px;
+    display: grid;
+    align-content: center;
+    justify-content: center
+}
+
+.imagen {
+    display: grid;
+
+}
+
+.imagen img {
+    margin: auto;
+}
+
+.cancha, .banco {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+}
+
